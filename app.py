@@ -9,6 +9,8 @@ def f(city):
     url = f"http://api.weatherapi.com/v1/current.json?key={key}&q={city}&aqi=no"
 
     response = requests.get(url)
+    if response.status_code != 200:
+        return "Ошибка"
     data = response.json()
     return str(data['current']['temp_c']) + "°C"
 
