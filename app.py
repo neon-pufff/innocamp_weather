@@ -14,7 +14,6 @@ def f(city):
     data = response.json()
     return str(data['current']['temp_c']) + "°C"
 
-
 app = Flask(__name__)
 app.secret_key = "key"
 
