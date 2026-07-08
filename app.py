@@ -28,8 +28,8 @@ def weather():
         if request.method == "POST":
             city = request.form.get("city", "").strip()
             result = random.randint(15, 32)
-            # if city != "":
-            #     result = f(city)
+            if city != "":
+                result = f(city)
 
     return render_template("forecast.html", result=result)
 
