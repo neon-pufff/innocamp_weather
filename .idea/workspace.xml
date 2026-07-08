@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5045f6d-627f-415c-a560-053a4b51c26e" name="Changes" comment="работает с api">
-      <change afterPath="$PROJECT_DIR$/.idea/Weather.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-    </list>
+    <list default="true" id="d5045f6d-627f-415c-a560-053a4b51c26e" name="Changes" comment="работает с api и проверкой" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,13 +128,38 @@
       <option name="project" value="LOCAL" />
       <updated>1783497303674</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="работает с api и проверкой">
+      <option name="closed" value="true" />
+      <created>1783497600255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783497600255</updated>
+    </task>
+    <task id="LOCAL-00006" summary="работает с api и проверкой">
+      <option name="closed" value="true" />
+      <created>1783497657710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783497657710</updated>
+    </task>
+    <task id="LOCAL-00007" summary="работает с api и проверкой">
+      <option name="closed" value="true" />
+      <created>1783497811487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1783497811487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
     <MESSAGE value="работает" />
     <MESSAGE value="работает с api" />
-    <option name="LAST_COMMIT_MESSAGE" value="работает с api" />
+    <MESSAGE value="работает с api и проверкой" />
+    <option name="LAST_COMMIT_MESSAGE" value="работает с api и проверкой" />
   </component>
 </project>
