@@ -12,7 +12,14 @@ def f(city):
     if response.status_code != 200:
         return "Ошибка"
     data = response.json()
-    return str(data['current']['temp_c']) + "°C"
+    result = data['current']['temp_c']
+    smile = ""
+    if result > 21:
+        smile = "☀️"
+    if result < 0:
+        smile = "❄️"
+    return str(result) + "°C" + smile
+
 
 app = Flask(__name__)
 app.secret_key = "key"
