@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="{{ url_for('weather') }}">
+    <input type="text" name="city" placeholder="Город" required>
+    <button type="submit">Показать</button>
+</form>
+<p>{{ result }}</p>
+
+<form method="get" action="{{ url_for('index') }}">
+    <button type="submit">Главная</button>
+</form>
+</body>
+</html>

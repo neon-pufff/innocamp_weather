@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="{{ url_for('weather') }}">
+    <button type="submit">Прогноз</button>
+</form>
+<form method="post" action="{{ url_for('info') }}">
+    <button type="submit">Информация</button>
+</form>
+</body>
+</html>
