@@ -5,7 +5,7 @@ import requests
 
 
 def f(city):
-    key = "5638fc1947fe49c283c92135260707"
+    key = ""
     url = f"http://api.weatherapi.com/v1/current.json?key={key}&q={city}&aqi=no"
 
     response = requests.get(url)
